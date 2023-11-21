@@ -24,6 +24,7 @@ padding: 5px;
 .tabs span:hover{
 color: #FFFFFF;
 border: 2px solid #E3B748;
+cursor: pointer;
 }
 
 .contact{
@@ -42,4 +43,5 @@ border: 2px solid #E3B748;
     transform: scale(1.11);
     filter: brightness(90%);
     border: 2px solid #E3B748;
+    cursor: pointer;
 }
