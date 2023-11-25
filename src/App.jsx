@@ -6,6 +6,7 @@ import Herosection from './Component/HeroSection/Herosection'
 import Intro from './Component/Introsection/Intro'
 import Chooseus from './Component/Chooseus/Chooseus'
 import Practices from './Component/Practices/Practices'
+import Teamsection from './Component/Team/Teamsection'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
 <Intro/>
 <Chooseus></Chooseus>
 <Practices/>
+<Teamsection/>
     </>
   )
 }
