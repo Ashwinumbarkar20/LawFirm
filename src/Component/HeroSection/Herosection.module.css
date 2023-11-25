@@ -12,6 +12,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 padding: 20px;
+cursor: pointer;
 
 
 }
@@ -40,6 +41,7 @@ align-items: center;
 padding: 20px;
 width: 500px;
 padding: 10px;
+cursor: pointer;
 }
 .left h1{
 color: var(--Pure-White, #FFF);

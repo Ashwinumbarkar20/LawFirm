@@ -1,0 +1,48 @@
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 359px;
+    height: 377px;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.10);
+    background: #1D1D1D;
+    padding: 20px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+height: 101px;
+flex-shrink: 0;
+background-color: #FFF;
+border-radius: 50%;
+}
+.rate{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+background-color: #1D1D1D;
+}
+.textmsg{
+    background-color: #1D1D1D;
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%;
+opacity: 0.3;
+}
+.readMorebtn{
+    width: 121px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 23.5px;
+background: #E3B748;
+color:black
+}

@@ -1,0 +1,25 @@
+.mainDiv{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:32px;
+    align-items: center;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:32px;
+    align-items: center;
+    padding: 20px;
+}
+.mainHeading{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 143.023%;
+}

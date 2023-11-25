@@ -1,0 +1,56 @@
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+ margin-bottom: 20px;
+}
+.Header{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 143.023%
+}
+
+.Girdimg{
+    
+    display: flex;
+    flex-direction: row;
+        
+    justify-content: center;
+    align-items: center;
+    width: 1185px;
+    row-gap: 24px;
+  
+   
+}
+.imgdiv{
+    position: relative;
+    border-radius: 14px;
+    height:342px ;
+    width: auto;    
+    
+
+}
+.imgdiv img{border-radius: 14px;
+    border: 0.5px solid var(--color-yellow);}
+
+.imgdiv span{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  color: #FFFBF2;
+  text-align: center;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px
+}
+
