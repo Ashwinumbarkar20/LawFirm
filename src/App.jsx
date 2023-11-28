@@ -9,6 +9,7 @@ import Practices from './Component/Practices/Practices'
 import Teamsection from './Component/Team/Teamsection'
 import Faq from './Component/FAQ/Faq'
 import News from './Component/Newsletter/News'
+import Footer from './Component/Footer/Footer'
 function App() {
   
 
@@ -22,6 +23,7 @@ function App() {
 <Teamsection/>
 <Faq/>
 <News/>
+<Footer/>
     </>
   )
 }
