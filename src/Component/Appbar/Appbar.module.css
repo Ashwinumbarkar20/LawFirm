@@ -4,6 +4,8 @@
    justify-content: space-around;
    margin-top: 20px;
     align-items: center;
+    width: 1200px;
+    margin: 0 auto;
 }
 .tabs{
     display: flex;
@@ -11,7 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+ 
 }
 .tabs span{
 transition: all 0.15s ease-out;

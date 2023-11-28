@@ -5,6 +5,8 @@
     align-items: center;
   padding: 20px;
   margin-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
   
   gap:32px;
     }
