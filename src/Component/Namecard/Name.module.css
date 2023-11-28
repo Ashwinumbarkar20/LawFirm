@@ -4,7 +4,6 @@
     color: #fff;
     justify-content: center;
     align-items: center;
-    border: 0.1px solid #E3B748;
     width: 344px;
     height: 109px;
     border-radius: 14px;
@@ -12,7 +11,11 @@
     margin: 10px;
     cursor: pointer;
 }
-
+.mainDiv:hover{
+    border: 2px solid #E3B748;
+    background-color:#E3B748 ;
+    color: black;
+}
 .content{
     display: flex;
     flex-direction: row;
@@ -20,12 +23,22 @@
     align-items: center;
     height: 90%;
     width: 90%;     
-    
+    background-color: transparent;
 }
-
 
 .userdetails{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+background-color: transparent;
+}
 
+img, p{
+    background-color: transparent;
+}
+.image{
+  border: 1px solid inherit;
+  border-radius: 50%;
+}
+.imageDiv{
+    border-radius: 50%;
 }

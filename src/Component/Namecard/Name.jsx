@@ -7,11 +7,11 @@ export default function Name({name,Totalcases}) {
      <div className={`${styles.mainDiv}`}>
         <div className={`${styles.content}`}>
 
-            <div><img src={pic} alt="user_Pic" /></div>
+            <div className={`${styles.imageDiv}`} ><img src={pic} alt="user_Pic" className={`${styles.image}`}/></div>
             
             <div className={`${styles.userdetails}`}>
                 <p>{name}</p>
-                <p>{Totalcases}</p>
+                <p>{`${Totalcases} Cases`}</p>
             </div>
         
         </div>

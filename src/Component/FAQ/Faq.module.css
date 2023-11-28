@@ -1,0 +1,59 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     margin-bottom: 20px;
+}
+.faqName{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+   
+}
+h1{
+    text-align: start;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+p{
+color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%;
+opacity: 0.3;
+}
+
+.faQuestion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.mainacc{
+    color: #111111;
+ padding: 0;
+    border:2px solid white;
+    margin:15px;
+    border-radius: 50%;
+
+}
+
+.MuiAccordionSummary-root {
+    background-color: #111; /* Black background for the summary */
+    padding:;
+  }
+
+h6{
+    font-size: 18px;
+    padding: 10px;
+}
